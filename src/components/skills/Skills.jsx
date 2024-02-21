@@ -1,7 +1,7 @@
-import React from 'react'
-import "./skills.css"
-import Frontend from './Frontend'
-import Backend from './Backend'
+
+import "../skills/skills.css"
+import Frontend from '../skills/Frontend'
+import Backend from '../skills/Backend'
 
 const Skills = () => {
   return (

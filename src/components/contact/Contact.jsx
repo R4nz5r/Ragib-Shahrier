@@ -1,6 +1,6 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import "./contact.css"
+import "../contact/contact.css"
 
 const Contact = () => {
 
@@ -33,8 +33,9 @@ const Contact = () => {
                             <h3 className="contact__card-title">Email</h3>
                             <span className="contact__card-data">ragibshahriar43@gmail.com</span>
 
-                            <a href="mailto:ragibshahriar43@gmail.com" target='_blank' className="contact__button">Write me
-                                <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="mailto:ragibshahriar43@gmail.com" target='_blank' className="contact__button" rel="noreferrer">Write me
+                                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                            </a>
                         </div>
 
                         <div className="contact__card">
@@ -43,8 +44,9 @@ const Contact = () => {
                             <h3 className="contact__card-title">Whatsapp</h3>
                             <span className="contact__card-data">+880 1798204194</span>
 
-                            <a href="https://wa.me/8801798204194/?text=Hello,%20more%20information!" target="_blank" className="contact__button">Write me
-                                <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                            <a href="https://wa.me/8801798204194/?text=Hello,%20more%20information!" target="_blank" className="contact__button" rel="noreferrer">Write me
+                                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                            </a>
                         </div>
 
                         <div className="contact__card">
@@ -53,7 +55,7 @@ const Contact = () => {
                             <h3 className="contact__card-title">Messenger</h3>
                             <span className="contact__card-data">facebook.com/R4nz5r</span>
 
-                            <a href="https://www.facebook.com/R4nz5r" target='_blank' className="contact__button">Write me
+                            <a href="https://www.facebook.com/R4nz5r" target='_blank' className="contact__button" rel="noreferrer">Write me
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                         </div>
                     </div>

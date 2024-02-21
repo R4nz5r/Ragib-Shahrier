@@ -1,6 +1,6 @@
-import React from 'react'
-import "./testimonials.css"
-import { Data } from './Data'
+
+import "../testimonials/testimonials.css"
+import { Data } from '../testimonials/Data.jsx'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles

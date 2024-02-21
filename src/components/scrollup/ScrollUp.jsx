@@ -1,5 +1,4 @@
-import React from 'react';
-import "./scrollup.css";
+import "../scrollup/scrollup.css";
 const ScrollUp =() => {
     window.addEventListener("scroll", function () {
         const scrollUp = document.querySelector(".scrollup")

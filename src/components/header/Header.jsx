@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import "./header.css"
 
 const Header = () => {
@@ -6,6 +6,7 @@ const Header = () => {
     const[Toggle,showMenu] = useState(false);
 
   return (
+    
     <header className="header">
         <nav className="nav container">
             <a href="index.html" className="nav__logo">Ragib</a>
@@ -19,31 +20,25 @@ const Header = () => {
                     </li>
                    
                     <li className="nav__item">
-                        <a href="#" className="nav__link">
+                        <a href="#about" className="nav__link">
                             <i className="uil uil-user nav__icon"></i>About
                         </a>
                     </li>
                    
                     <li className="nav__item">
-                        <a href="#" className="nav__link">
+                        <a href="#skills" className="nav__link">
                             <i className="uil uil-file-alt nav__icon"></i>Skills
                         </a>
                     </li>
                    
                     <li className="nav__item">
-                        <a href="#" className="nav__link">
+                        <a href="#services" className="nav__link">
                             <i className="uil uil-briefcase-alt nav__icon"></i>Services
                         </a>
                     </li>
                    
                     <li className="nav__item">
-                        <a href="#" className="nav__link">
-                            <i className="uil uil-scenery nav__icon"></i>Portfolio
-                        </a>
-                    </li>
-                   
-                    <li className="nav__item">
-                        <a href="#" className="nav__link">
+                        <a href="#contact" className="nav__link">
                             <i className="uil uil-message nav__icon"></i>Contact
                         </a>
                     </li>
