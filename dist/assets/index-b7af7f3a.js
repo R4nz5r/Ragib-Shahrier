@@ -10040,9 +10040,9 @@ const Gp = () => {
     ],
   });
 };
-const Wp = "./assets/testimonial1-d3365f1c.png",
-  Up = "./assets/testimonial2-3278169b.png",
-  bp = "./assets/testimonial3-3134aaaf.png",
+const Wp = "/assets/testimonial1-d3365f1c.png",
+  Up = "/assets/testimonial2-3278169b.png",
+  bp = "/assets/testimonial3-3134aaaf.png",
   Qp = [
     {
       id: 1,
